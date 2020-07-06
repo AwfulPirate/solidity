@@ -6,6 +6,7 @@ Language Features:
 Compiler Features:
  * SMTChecker: Support structs.
  * Yul Optimizer: Prune unused parameters in functions.
+ * Yul Optimizer: Inline into functions further down in the call graph first.
 
 Bugfixes:
  * Type Checker: Disallow ``virtual`` for modifiers in libraries.
